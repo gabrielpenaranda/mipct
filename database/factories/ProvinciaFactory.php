@@ -1,0 +1,20 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Provincia;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends Factory<Provincia>
+ */
+class ProvinciaFactory extends Factory
+{
+    public function definition(): array
+    {
+        return [
+            'codigo' => fake()->unique()->bothify('??'),
+            'nombre' => fake()->unique()->state(),
+        ];
+    }
+}

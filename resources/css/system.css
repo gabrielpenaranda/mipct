@@ -1,0 +1,136 @@
+@theme {
+    /* Primary (#004e98 base) */
+    --color-primary-50: #e6f0ff;
+    --color-primary-100: #b3d1ff;
+    --color-primary-200: #80b3ff;
+    --color-primary-300: #4d94ff;
+    --color-primary-400: #1a75ff;
+    --color-primary-500: #0066cc;
+    --color-primary-600: #0059b3;
+    --color-primary-700: #004e98;
+    --color-primary-800: #00427d;
+    --color-primary-900: #003366;
+    --color-primary-950: #001f3f;
+
+    /* Secondary */
+    --color-secondary-50: #f2f4f6;
+    --color-secondary-100: #dce0e6;
+    --color-secondary-200: #c5cbd4;
+    --color-secondary-300: #aeb5c2;
+    --color-secondary-400: #97a0b0;
+    --color-secondary-500: #808b9e;
+    --color-secondary-600: #6c757d;
+    --color-secondary-700: #5a6066;
+    --color-secondary-800: #484c50;
+    --color-secondary-900: #36393d;
+    --color-secondary-950: #242629;
+
+    /* Success */
+    --color-success-50: #f0f8f2;
+    --color-success-100: #d7eedb;
+    --color-success-200: #bfe4c5;
+    --color-success-300: #a6daaf;
+    --color-success-400: #8ed099;
+    --color-success-500: #75c683;
+    --color-success-600: #5cb06d;
+    --color-success-700: #4cae5b;
+    --color-success-800: #3f9d49;
+    --color-success-900: #2f8c37;
+    --color-success-950: #1f6b26;
+
+    /* Info */
+    --color-info-50: #f0f9fb;
+    --color-info-100: #d1edf3;
+    --color-info-200: #b3e2eb;
+    --color-info-300: #94d6e3;
+    --color-info-400: #76cbdb;
+    --color-info-500: #57c0d4;
+    --color-info-600: #45a6b0;
+    --color-info-700: #348c8c;
+    --color-info-800: #237268;
+    --color-info-900: #175852;
+    --color-info-950: #0c3e3c;
+
+    /* Warning */
+    --color-warning-50: #fff9ec;
+    --color-warning-100: #fff3d9;
+    --color-warning-200: #ffedb6;
+    --color-warning-300: #ffe894;
+    --color-warning-400: #ffe371;
+    --color-warning-500: #ffdd4e;
+    --color-warning-600: #d4b63c;
+    --color-warning-700: #b89a2f;
+    --color-warning-800: #9c7e22;
+    --color-warning-900: #806215;
+    --color-warning-950: #66460a;
+
+    /* Danger */
+    --color-danger-50: #fef2f3;
+    --color-danger-100: #fde0e2;
+    --color-danger-200: #fbcdd0;
+    --color-danger-300: #f9bac0;
+    --color-danger-400: #f7a7b0;
+    --color-danger-500: #f594a0;
+    --color-danger-600: #d97a86;
+    --color-danger-700: #c45f6c;
+    --color-danger-800: #a84752;
+    --color-danger-900: #8c3038;
+    --color-danger-950: #701920;
+
+    --color-azul-primary: #162C48;
+    --color-azul-secondary: #034F98;
+}
+    
+   
+
+.btn {
+    @apply font-bold py-2 px-4 rounded;
+  }
+  
+.btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-700;
+}
+
+.btn-secondary {
+    @apply bg-secondary-500 text-white hover:bg-secondary-700;
+}
+
+.btn-success {
+    @apply bg-success-500 text-white hover:bg-success-700;
+}
+
+.btn-danger {
+    @apply bg-danger-500 text-white hover:bg-danger-700;
+}
+
+.btn-warning {
+    @apply bg-warning-500 text-gray-800 hover:bg-warning-700;
+}
+
+.btn-info {
+    @apply bg-info-500 text-white hover:bg-info-700;
+}
+
+.btn-light {
+    @apply bg-gray-300 text-white hover:bg-gray-400;
+}
+
+.btn-dark {
+    @apply bg-gray-700 text-white hover:bg-gray-900;
+}
+
+.card {
+    @apply bg-white px-6 py-8 shadow-lg rounded-lg;
+}
+
+.success {
+    @apply bg-success-500;
+}
+
+.select {
+    @apply w-full px-3 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-zinc-500 focus:border-zinc-500 text-zinc-400 bg-white disabled:opacity-50 disabled:cursor-not-allowed text-sm
+}
+
+.input {
+    @apply w-full px-3 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-zinc-500 focus:border-zinc-500 text-zinc-800 bg-white disabled:opacity-50 disabled:cursor-not-allowed text-sm
+}
